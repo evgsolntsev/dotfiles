@@ -79,21 +79,4 @@ autocmd Filetype cpp source ~/vimconf/cpp.vim
 "Настроим включение перевода на <F2>
 map <F2> :source ~/vimconf/translate.vim<cr>
 imap <F2> <Esc><F2>
-vmap <F2> <Esc><F2>
-
-"Новая вкладка по <C-t>
-map <C-t> :tabnew<cr>
-imap <C-t> <Esc><C-t>a
-vmap <C-t> <Esc><C-t>v
-
-"Следующая вкладка по <C-Tab>
-map <C-Tab> :tabnext<cr>
-imap <C-Tab> <Esc><C-Tab>a
-vmap <C-Tab> <Esc><C-Tab>v
-
-"Use Vim defaults instead of Vi compatibility
-set nocompatible
-
-"For backspace
-set backspace=indent,eol,start
-
+vmap <F2>
